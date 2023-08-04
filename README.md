@@ -1,2 +1,2 @@
-# dl-test
+# OpenQuest
 Digital Literacy Competency Evaluation Question Database
