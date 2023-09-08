@@ -1,20 +1,60 @@
 # OpenQuest
-Digital Literacy Competency Evaluation Question Database
+*Digital Literacy Competency Evaluation Question Database*
 
-本仓库作为**国家级全民数字素养与技能提升基地**（华东师范大学）旗下的开放题库项目，目的是广泛收集数字素养框架下的各类评测题目，欢迎大家多多贡献~
+今天我们处在数字化到数据化再到智能化剧烈转型的时代，这个时代催生了随处可见的机会，也带来了日益扩大的数字鸿沟。提升全民数字素养与技能水平，是提升国民素质、促进人的全面发展的战略任务，是实现从制造大国迈向科技强国的必由之路，是弥合数字鸿沟、促进共同富裕的关键举措，也是摆在我们教育界面前的重大机遇与挑战。
 
-参考内容：
+本仓库作为**国家级全民数字素养与技能提升基地**（华东师范大学）旗下的开放题库项目，目的是收集全民数字素养框架下的能力测评题目，欢迎大家加入我们全民数字素养提升的先锋队伍，多提意见建议、多贡献高品质有创意的题目。
+
+如果有兴趣参与，请继续阅读下面的贡献指南。
+
+## 题目贡献指南
+
+### 必要准备
+
+请务必先仔细阅读以下文献：
+1. [数字素养框架](documentation/dl-framework.pdf)：了解数字素养提升的意义和目标，以及我们建立的通用数字素养能力框架；
+2. [数字素养测评](documentation/dl-testing.pdf)：了解数字素养测评的基础体系，以及最简单的一些测评题目样例（主要来源于 [MyDigiSkills](https://mydigiskills.eu/) 项目）。
+
+### 提交候选题目
+
+然后即可使用本仓库的 Issues 系统来提交你的候选题目，在 [Issues 首页](issues)点击“New issue”，按照模板填写即可，其中：
+- 问题类型：必填，可以是**自我评估型**、**能力考察型**、**其他型**三类型之一，在[数字素养测评](documentation/dl-testing.pdf)中有详细说明；
+- 问题题型：必填，可以是**单选题**、**多选题**、**填空题**、**简答题**四种之一；
+- 问题题干：必填，问题的主体部分；
+- 问题选择项：如题型是单选或多选则此项必填，需提供4-5个选择项，分别用 A、B、C、D、E 标记；
+  - 如果问题类型是**自我评估型**，此项可以直接采用[数字素养测评](documentation/dl-testing.pdf)的“自我评估型问题的答题选项”一节中定义的“认知类”、“操作类”、“认同类”来表述，因为这三个子类的问题具有共通的答题选择项，不需要重复列出；
+- 问题答案：如果不是**自我评估型**问题则此项必填，需给出问题的标准/最佳答案；
+  - 如果题型是单选或多选，用 A、B、C、D、E 表述；
+  - 如果题型是填空或简答，用文字表述，或给出答题思路/评价标准；
+- 能力域（一级）：必填，[数字素养框架](documentation/dl-framework.pdf)中定义的8个一级能力域之一，可以用编号（如 [0]）或者文字表述（如 [1] 信息与数据）；
+- 能力域（二级）：必填，[数字素养框架](documentation/dl-framework.pdf)中定义的二级能力域之一，可以用编号（如 [4.2]）或者文字表述（如 [5.2] 对个人数据与隐私的保护）；
+- 难度：可选，根据你的判断，从**入门级**、**常规级**、**达人级**中选择一级；
+- 其他说明：可选，任何你想补充的信息。
+
+### 提交之后
+
+候选问题提交后，我们会对问题进行初审和二审，二审通过即可进入系统；期间如有需要会直接在该 issue 下与你讨论。
+
+无论怎样，都感谢你所做的贡献！
+
+## 项目仓库
+- README.md：本文件
+- documentation：数字素养基础文档
+  - dl-framework.md：数字素养框架，本项目的测评题目需对应此框架下的两级能力标签
+  - dl-testing.md：数字素养测评，里面是数字素养测评及本开放题库的说明和部分样例
+- q-base：分数字素养框架中各能力域分别收录的已通过审核的测评题目，如 `domain-0` 收录能力域“[0] 通用数字设备与应用软件”相关的测评题
+  注：此目录下的文件格式为 org-mode，以后可根据需要转换为 markdown 或其他格式，仅用于自动导入题库系统，不得人为修改。
+
+## 同类产品参考
 - **MyDigiSkills**
   - 特点：简洁明了
-  - 地址：https://mydigiskills.eu/
-  - 样例：[飞书链接](https://magzq53qj19.feishu.cn/wiki/QdckwNHBkigl96kkUrNc9pa9nag)
+  - 官网：https://mydigiskills.eu/
+  - [样例](https://magzq53qj19.feishu.cn/wiki/QdckwNHBkigl96kkUrNc9pa9nag)
 - **The Digital Competence Wheel**
   - 特点：可视化做的非常好，针对不同人群和场景做了体系化
-  - 链接：https://digital-competence.eu/
-  - 样例1：[digital-T.pdf](https://github.com/ECNU/OpenQuest/files/12268368/digital-T.pdf)
-  - 样例2：[will-D.pdf](https://github.com/ECNU/OpenQuest/files/12268371/will-D.pdf)
+  - 官网：https://digital-competence.eu/
+  - [样例1](https://github.com/ECNU/OpenQuest/files/12268368/digital-T.pdf) | [样例2](https://github.com/ECNU/OpenQuest/files/12268371/will-D.pdf)
 - **Pix**
   - 特点：测评题目形式非常多样性，包括内嵌了一些操作情景题
-  - 链接：https://pix.org/en/
-  - 样例：[pic.pdf](https://github.com/ECNU/OpenQuest/files/12268397/pic.pdf)
-
+  - 官网：https://pix.org/en/
+  - [样例](https://github.com/ECNU/OpenQuest/files/12268397/pic.pdf)
