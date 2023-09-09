@@ -1,3 +1,8 @@
+---
+name: Quest_Template
+about: Create New Question or update existing Question
+---
+
 **问题类型：** 必填<br>
   - 自我评估型、能力考察型、其他型      三选一 <br>
    
