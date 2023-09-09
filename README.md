@@ -37,6 +37,10 @@
 
 无论怎样，都感谢你所做的贡献！
 
+### 提交流程
+![image](https://github.com/ECNU/OpenQuest/assets/31360564/07f5e094-aea0-4d1a-9203-86eaa77c86a7)
+
+
 ## 项目仓库
 - README.md：本文件
 - documentation：数字素养基础文档
